@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    margin: 0 130px;
+}
+
+.header {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    color: gray;
+    font-family: sans-serif;
+}
+
+
+ul li:hover {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 7 00;
+}
+
+.img {
+    margin-left: 900px;
+    z-index: -1;
+    position: absolute;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+p {
+    color: gray;
+    font-family: sans-serif;
+}
+
+.div {
+    margin: 100px;
+    margin-left: 170px;
+    z-index: -1;
+    position: absolute;
+}
+
+button {
+    width: 170px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+button:hover {
+    width: 170px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: blue;
+    color: #fff;
+    border: 0;
+}
+
+.h2 {
+    text-align: center;
+    margin-top: 500px;
+}
+
+p {
+    text-align: center;
+}
+
+.cards {
+    width: 300px;
+    height: 275px;
+    background-color: rgb(228, 220, 220);
+    padding: 40px 0 0 20px;
+    border-radius: 15px;
+    margin-top: 50px;
+    transition:all 1s;
+}
+
+h3 {
+    color: black;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+p {
+    color: black;
+    margin-top: 20px;
+}
+
+.cards:hover {
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+}
+
+.card {
+    display: flex;
+    padding: 0 270px;
+    justify-content: space-between;
+}
+
+
+
+
+
